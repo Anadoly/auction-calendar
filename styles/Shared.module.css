@@ -1,0 +1,24 @@
+.container {
+  max-width: 1440px;
+  padding: 0 15px;
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.visuallyHidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.fullPageHeight {
+  /* min height all screen minus header and footer's height */
+  min-height: calc(100vh - 94px - 40px);
+  padding: 1px;
+}

@@ -1,0 +1,21 @@
+.header {
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 3px 6px 0 hsl(0deg 0% 65% / 16%);
+  padding: 0 20px;
+}
+
+.header > nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header > nav ul {
+  padding: 0;
+}
+
+.header > nav ul > li {
+  list-style: none;
+  font-size: 16px;
+  color: #404040;
+}

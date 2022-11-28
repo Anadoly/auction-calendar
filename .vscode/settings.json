@@ -1,0 +1,14 @@
+{
+  "editor.tabSize": 2,
+  "files.autoSave": "off",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "typescript.suggest.includeAutomaticOptionalChainCompletions": true,
+  "javascript.suggest.includeAutomaticOptionalChainCompletions": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "eslint.alwaysShowStatus": true,
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+  "files.eol": "\n",
+  "cSpell.words": ["swiper"]
+}

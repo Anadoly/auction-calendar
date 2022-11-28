@@ -1,0 +1,108 @@
+.calenderHeader {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+  margin: 25px 0;
+}
+
+.calenderHeader > div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.calenderHeader > h1 {
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 0;
+}
+
+.calenderHeader > div > p {
+  display: flex;
+  color: #828e99;
+}
+
+.calenderHeader > div > button {
+  background-color: transparent;
+  border: none;
+  color: #828e99;
+  cursor: pointer;
+}
+
+.calender {
+  box-shadow: 0 3px 6px 0 rgb(78 78 78 / 16%);
+}
+
+.calenderColumn {
+  min-width: 175px;
+  background: #fff;
+}
+
+.calenderColumn > div {
+  min-height: 195px;
+  padding: 19px 10px;
+  border-right: 1px solid #c9c9c9;
+  border-bottom: 1px solid #c9c9c9;
+}
+
+.calenderColumn div:first-child {
+  border-bottom: none;
+}
+
+.calenderColumn div:first-child h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.calenderColumn div:first-child h3 span {
+  font-size: 62px;
+  display: block;
+}
+
+.activeToday {
+  color: red;
+}
+
+.calenderEvent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.calenderEvent div p {
+  margin: 0;
+}
+
+.calenderEvent div:first-child p:first-child {
+  font-size: 12px;
+}
+.calenderEvent div:first-child p:last-child {
+  font-size: 17px;
+  margin-top: 9px;
+  cursor: pointer;
+}
+
+.calenderEvent div:first-child p:last-child:hover {
+  color: #e51937;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.calenderEvent div:last-child p:first-child {
+  font-size: 14px;
+  color: #828e99;
+  margin-bottom: 12px;
+}
+
+.calenderEvent div:last-child p:last-child {
+  font-size: 14px;
+  background-color: #b8bfc5;
+  color: #f7fafc;
+  cursor: pointer;
+  border-radius: 14.5px;
+  display: inline-block;
+  padding: 10px 20px;
+}
